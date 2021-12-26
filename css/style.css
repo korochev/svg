@@ -83,7 +83,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
 
-    background-image: url('ellipse.svg');
+    background-image: url('../ellipse.svg');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto 100%;
