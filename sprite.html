@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG-спрайты</title>
+    <!-- Установка шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Сброс стилей по умолчанию -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Формирование двенадцатиколоночной сетки -->
+    <link rel="stylesheet" href="css/grid.css">
+    <!-- Кастомизация стилей -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="section section_bg_pink">
+        <div class="container-xl">
+            <h1 class="section__heading">Как это работает?</h1>
+            <ul class="section__step step row row-cols-sm-3">
+                <li class="step__item">
+                    <div class="step__img-wrap">
+                        <svg viewBox="0 0 375 288">
+                            <use xlink:href="sprite.svg#coffee"></use>
+                        </svg>
+                    </div>
+                    <p class="step__title">Утренний <strong class="step__title-keyword">кофе</strong></p>
+                    <p class="step__desc">Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее просыпаемся.</p>
+                </li>
+                <li class="step__item">
+                    <div class="step__img-wrap">
+                        <svg viewBox="0 0 375 288">
+                            <use xlink:href="sprite.svg#meditating"></use>
+                        </svg>
+                    </div>
+                    <p class="step__title">Час <strong class="step__title-keyword">медитации</strong></p>
+                    <p class="step__desc">После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.</p>
+                </li>
+                <li class="step__item">
+                    <div class="step__img-wrap">
+                        <svg viewBox="0 0 375 288">
+                            <use xlink:href="sprite.svg#sprinting"></use>
+                        </svg>
+                    </div>
+                    <p class="step__title">Время <strong class="step__title-keyword">первых</strong></p>
+                    <p class="step__desc">Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section_bg_white section">
+        <div class="container-xl">
+            <div class="section__integration integration row">
+                <div class="integration__intro col-md-5">
+                    <h2 class="integration__title">Интеграция со сторонними сервисами</h2>
+                    <p class="integration__desc">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.</p>
+                </div>
+                <ul class="integration__list col-md">
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Facebook">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Todoist">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#todoist"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Worklio">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#worklio"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Dropbox">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#dropbox"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Google Plus">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#google-plus"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Trello">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#trello"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="integration__item">
+                        <a href="#" class="integration__link" title="Slack">
+                            <svg height="70" width="70">
+                                <use xlink:href="sprite.svg#slack"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* ======================Common=style======================= */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* ======================How=it=works======================= */
+
+.step__img-wrap svg {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+}
+
+.section_bg_pink {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #FFF6ED;
+}
+
+.step__img-wrap {
+    margin-bottom: 20px;
+}
+
+.step__title {
+    margin-bottom: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.step__title-keyword {
+    color: #FF7A00;
+}
+
+/* ======================Integration=block======================= */
+
+.section_bg_white {
+    padding: 24px 0;
+}
+
+.integration__intro,
+.integration__list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.integration__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-image: url('ellipse.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 100%;
+}
+
+.integration__item {
+    flex: 0 0 25%;
+    padding-top: 30px;
+    text-align: right;
+    height: 100px;
+}
+
+.integration__link {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
